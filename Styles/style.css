@@ -1,0 +1,79 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 10px;
+}
+
+/* ##################### */
+/* Estilos del header */
+/* ##################### */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}
+
+/* Estilos del logo */
+header #logo {
+    width: auto;
+    height: 100px;
+    zoom: 0.5;
+    align-self: center;
+    justify-self: center;
+}
+
+/* Estilos del nav */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0px;
+    align-items: center;
+}
+
+header nav ul li {
+    padding: 0px 0px;
+    margin: 5px 5px;
+}
+
+/* Estilos de los enlaces */
+header nav ul li a {
+    text-decoration: none;
+    padding: 0px 0px;
+}
+
+/* Estilos del boton */
+header nav ul li button {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+/* ##################### */
+/* Estilos del main */
+/* ##################### */
+
+
+
+
+
+/* ##################### */
+/* Estilos del footer */
+/* ##################### */
