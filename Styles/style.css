@@ -70,6 +70,27 @@ header nav ul li button {
 /* Estilos del main */
 /* ##################### */
 
+/* Estilos de la seccion de detalle del producto */
+#product-image {
+    margin-top: 40px;
+    width: 500px;
+    height: 400px;
+}
+
+.product-detail-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#offer-title {
+    color: #ff0000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 
 
 
