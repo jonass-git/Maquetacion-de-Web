@@ -148,13 +148,21 @@ header nav ul li button {
 .recomended-products {
     display: flex;
     justify-content: space-between;
+    gap: 15px;
     flex-direction: row;
     padding: 10px;
+}
+
+.recomended-products article {
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .recomended-products img {
     width: 200px;
     height: 200px;
+
 }
 
 .recomended-products article img {
