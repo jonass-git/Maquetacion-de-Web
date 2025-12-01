@@ -70,6 +70,8 @@ header nav ul li button {
 /* Estilos del main */
 /* ##################### */
 
+/* ########### PRODUCT DETAIL SECTION ########### */
+
 /* Estilos de la seccion de detalle del producto */
 #product-image {
     margin-top: 40px;
@@ -77,6 +79,7 @@ header nav ul li button {
     height: 400px;
 }
 
+/* Estilos de la seccion de detalle del producto */
 .product-detail-section {
     display: flex;
     justify-content: space-between;
@@ -85,12 +88,88 @@ header nav ul li button {
     margin-top: 30px;
 }
 
+/* Estilos del titlo de oferta */
 #offer-title {
     color: #ff0000;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
+/* Estilos del parrafo */
+.product-detail-info p {
+    margin-right: 60px;
+    padding-bottom: 0px;
+    text-align: justify;
+}
+
+/* Estilos de la seccion de acciones */
+.product-detail-actions {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.product-detail-actions #buy-button {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: #002fff;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+/* Estilos de la seccion de detalles del producto */
+.product-detail-gallery ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Estilos de la lista */
+.product-detail-gallery ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Estilos de la imagen */
+.product-detail-gallery img {
+    width: 55px;
+    height: 55px;
+}
+
+/* ########### RECOMENDED PRODUCTS SECTION ########### */
+
+.recomended-products {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.recomended-products img {
+    width: 200px;
+    height: 200px;
+}
+
+.recomended-products article img {
+    display: block;
+    margin: 0 auto;
+}
+
+.recomended-products article button {
+    margin-top: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: #002fff;
+    color: #ffffff;
+    padding: 10px 20px;
+}
 
 
 
