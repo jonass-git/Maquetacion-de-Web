@@ -42,7 +42,7 @@ header nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 0px;
+    gap: 15px;
     align-items: center;
 }
 
@@ -179,7 +179,73 @@ header nav ul li button {
     padding: 10px 20px;
 }
 
+/* ########### CALL TO ACTION SECTION ########### */
 
+/* formateo general */
+.call-to-action-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    border: 1px solid rgb(0, 226, 226);
+    border-radius: 20px;
+    background-color: #a0e4ff;
+}
+
+/* formateo call-to-action-info izquierda*/
+.call-to-action-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: justify;
+    padding-right: 120px;
+}
+
+/* formateo call-to-action-info izquierda titulo*/
+.call-to-action-info h2 {
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+/* formateo call-to-action-info izquierda parrafo*/
+.call-to-action-info p {
+    margin-top: 0px;
+}
+
+/* formateo call-to-action-info izquierda parrafo*/
+.call-to-action-info p {
+    margin-top: 0px;
+}
+
+/* formateo de call-to-action-inputs */
+.call-to-action-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: justify;
+    padding-right: 120px;
+}
+
+/* formateo call-to-action-inputs parrafo*/
+.call-to-action-inputs p {
+    margin-top: 0px;
+}
+
+/* formateo call-to-action-inputs input*/
+.call-to-action-inputs input {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+/* formateo call-to-action-inputs boton*/
+.call-to-action-inputs button {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: #002fff;
+    color: #ffffff;
+    padding: 10px 20px;
+}
 
 
 /* ##################### */
